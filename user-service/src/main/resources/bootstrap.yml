@@ -5,4 +5,13 @@ spring:
     config:
       uri: http://localhost:8097
       label: feat/config
-      profile: dev
+      profile: prod
+      name: user-service, shared
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
