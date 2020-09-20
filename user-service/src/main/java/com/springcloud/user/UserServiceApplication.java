@@ -14,6 +14,9 @@ public class UserServiceApplication {
   @Value("${user.name}")
   private String userName;
 
+  @Value("${api.key}")
+  private String apiKey;
+
   public static void main(String[] args) {
     SpringApplication.run(UserServiceApplication.class, args);
   }
@@ -21,7 +24,7 @@ public class UserServiceApplication {
   @GetMapping
   public ResponseEntity<String> test() {
 
-    return ResponseEntity.ok(userName);
+    return ResponseEntity.ok(String.format("%s, %s", userName, apiKey));
   }
 
 }

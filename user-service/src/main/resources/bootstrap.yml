@@ -5,4 +5,4 @@ spring:
     config:
       uri: http://localhost:8097
       label: feat/config
-      profile: prod
+      profile: dev
