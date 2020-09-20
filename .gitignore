@@ -1,3 +1,9 @@
 .idea/
 
 springcloudconfig.iml
+
+config-service/target/
+config-service/config-service.iml
+
+user-service/target/
+user-service/user-service.iml
