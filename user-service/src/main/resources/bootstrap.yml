@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        prefix: config
+        enabled: true
+        format: YAML
+        data-key: data
+  application:
+    name: user-service
