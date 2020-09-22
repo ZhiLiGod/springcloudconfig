@@ -10,5 +10,6 @@ spring:
         enabled: true
         format: YAML
         data-key: data
+        default-context: shared
   application:
     name: user-service
