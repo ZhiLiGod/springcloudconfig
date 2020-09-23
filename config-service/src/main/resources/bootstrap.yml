@@ -7,6 +7,11 @@ spring:
         git:
           uri: https://github.com/ZhiLiGod/springcloudconfig
           username: lizhinobb@gmail.com
-          password: lizhi*********
+          password: lizhi*******
           default-label: feat/config
           search-paths: configs
+  rabbitmq:
+    host: devenv-aws.invoicefair.club
+    port: 35764
+    username: invoicefair
+    password: oyTDOLZg9JOK
