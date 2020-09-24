@@ -7,7 +7,7 @@ spring:
         git:
           uri: https://github.com/ZhiLiGod/springcloudconfig
           username: lizhinobb@gmail.com
-          password: lizhi12149638acd
+          password: lizhi******
           default-label: feat/config
           search-paths: configs
   rabbitmq:
