@@ -19,7 +19,7 @@ public class UserServiceApplication {
   @Value("${api.key}")
   private String apiKey;
 
-  @Value("${password}")
+  @Value("${password.pwd}")
   private String password;
 
   public static void main(String[] args) {
