@@ -7,11 +7,11 @@ spring:
       label: feat/config
       profile: prod
       name: user-service, shared
-  rabbitmq:
-    host: devenv-aws.invoicefair.club
-    port: 35764
-    username: invoicefair
-    password: oyTDOLZg9JOK
+#  rabbitmq:
+#    host: devenv-aws.invoicefair.club
+#    port: 35764
+#    username: invoicefair
+#    password: oyTDOLZg9JOK
 
 management:
   endpoint:
